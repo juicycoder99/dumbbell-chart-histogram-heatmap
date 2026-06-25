@@ -1,8 +1,8 @@
-# Data Visualization (CS503) — HW1
+# Dumbbell Chart, Histograms, and Heatmap
 
-Coursework for **Data Visualization (CS503)**, Department of Computer Science, Bishop's University.
+Data visualisation project comparing US traffic-fatality trends with a dumbbell chart and analysing COVID-19 case distributions across Chinese provinces with histograms and Bhattacharyya-coefficient heatmaps.
 
-The full solution is in [`HW1.ipynb`](HW1.ipynb).
+The full implementation and analysis is in [`dumbbell_histogram_heatmap.ipynb`](dumbbell_histogram_heatmap.ipynb).
 
 ## Part I — Dumbbell Chart
 
@@ -34,14 +34,14 @@ BC(P, Q) = Σ sqrt( P(i) · Q(i) )
 
 ```bash
 pip install numpy pandas matplotlib plotly seaborn openpyxl
-jupyter notebook HW1.ipynb
+jupyter notebook dumbbell_histogram_heatmap.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `HW1.ipynb` | Full solution (Part I and Part II) |
-| `HW1.pdf` | Assignment description |
+| `dumbbell_histogram_heatmap.ipynb` | Full implementation and analysis (Part I and Part II) |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
 | `Dumbbell.xlsx` | Part I dataset |
 | `covid_china_daily_70days_2.csv` | Part II dataset |
